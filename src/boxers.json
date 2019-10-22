@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "boxer": "Muhammed Ali",
+        "img": "https://www.biography.com/.image/t_share/MTQ3NjYxMzk4NjkwNzY4NDkz/muhammad_ali_photo_by_stanley_weston_archive_photos_getty_482857506.jpg",
+        "clicked": "false"
+    },
+    {
+        "id": 2,
+        "boxer": "Sugar Ray Robinson",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Sugar_Ray_Robinson_1947.jpg",
+        "clicked": "false"
+    },
+    {
+        "id": 3,
+        "boxer": "Rocky Marciano",
+        "img": "https://www.massmoments.org/files/assets/moments/09-23-1952/09_23.1_1952.jpg",
+        "clicked": "false"
+    },
+    {
+        "id": 4,
+        "boxer": "Mike Tyson",
+        "img": "https://brobible.files.wordpress.com/2019/10/gettyimages-51763505.jpg?quality=90&w=650&h=444",
+        "clicked": "false"
+    },
+    {
+        "id": 5,
+        "boxer": "Floyd Mayweather",
+        "img": "https://s.abcnews.com/images/Sports/GTY_Floyd_Mayweather_Jr_ml_150430_4x3_992.jpg",
+        "clicked": "false"
+    },
+    {
+        "id": 6,
+        "boxer": "Julio Cesar Chavez",
+        "img": "https://calneva-law.com/wp-content/uploads/2018/07/julio-cesar-chavez.jpg",
+        "clicked": "false"
+    },
+    {
+        "id": 7,
+        "boxer": "Manny Pacquiao",
+        "img": "https://img.bleacherreport.net/img/images/photos/003/803/958/hi-res-3e87bb2f7400645ab54391c9d1e4103b_crop_north.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top",
+        "clicked": "false"
+    },
+    {
+        "id": 8,
+        "boxer": "Gennady Gennadyevich Golovkin",
+        "img": "http://fightnights.com/uploads/1461867295-Gennady-Golovkin.jpg",
+        "clicked": "false"
+    },
+    {
+        "id": 9,
+        "boxer": "Wladimir Klitschko",
+        "img": "https://talksport.com/wp-content/uploads/sites/5/2012/11/boxing_l_17.jpg?strip=all&w=700",
+        "clicked": "false"
+    },
+    {
+        "id": 10,
+        "boxer": "Tyson Fury",
+        "img": "https://photo.boxingscene.com/uploads/tyson-fury_6.jpg",
+        "clicked": "false"
+    },
+    {
+        "id": 11,
+        "boxer": "Deontay Wilder",
+        "img": "https://2upyml2xgast2pwf71r0ycaj-wpengine.netdna-ssl.com/wp-content/uploads/Deontay_Wilder_Joshua-e1505764182689.jpg",
+        "clicked": "false"
+    },
+    {
+        "id": 12,
+        "boxer": "Roy Jones",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQyxMe-oAaHiDLb7Lp11_y0tnH-OsQngybUMwDzUk0h8rPSP47",
+        "clicked": "false"
+    },
+    {
+        "id": 13,
+        "boxer": "Joe Frazier",
+        "img": "https://boxrec.com/media/images//thumb/3/31/Joe_Frazier-1600.jpg/300px-Joe_Frazier-1600.jpg",
+        "clicked": "false"
+    },
+    {
+        "id": 14,
+        "boxer": "George Foreman",
+        "img": "http://wallperio.com/data/out/141/george-foreman_602343910.jpg",
+        "clicked": "false"
+    },
+    {
+        "id": 15,
+        "boxer": "Canelo Alvarez",
+        "img": "https://specials-images.forbesimg.com/imageserve/5cfe6bcd4c687b0008592ffb/416x416.jpg?background=000000&cropX1=929&cropX2=2247&cropY1=184&cropY2=1502",
+        "clicked": "false"
+    },
+    {
+        "id": 16,
+        "boxer": "Lennox Lewis",
+        "img": "http://static9.bornrichimages.com/cdn2/500/500/91/c/wp-content/uploads/s3/2013/06/274311_ezfsn_300x300.jpg",
+        "clicked": "false"
+    }
+]

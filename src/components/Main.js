@@ -13,7 +13,9 @@ class Main extends Component {
         return (
             <div id='main'>
                 <div id='instructor'>
+                    <div id='click-header'>
                     <h3>Click on an image to earn points, but don't click on any more than once!</h3>
+                    </div>
                 </div>
 
                 <div id='image-content'>

@@ -3,9 +3,7 @@ import './style.css'
 
 function BoxerImages(props) {
     return (
-        <div className="img-container">
-          <img id={props.id} alt={props.name} src={props.image} clicked={props.clicked}/>
-        </div>
+          <img src={props.src} id={props.id} alt={props.alt} clicked={props.clicked}/>
     );
   }
   

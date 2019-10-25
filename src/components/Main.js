@@ -7,15 +7,52 @@ import boxers from '../boxers.json'
 class Main extends Component {
     state = {
         boxers: boxers,
+        clicked: [],
         score: 0,
-        topScore: 0
+        topScore: 0,
+        message: "Click on an image to earn points, but don't click on any more than once!"
     }
 
-    handleClick = (event) =>{
-        // event.preventDefault();
-        // console.log("clicked")
+    handleClick = (id) => {
+        console.log("clicked")
+        this.randomizeImages(this.state.boxers)
+        if (this.state.clicked.includes(id)) {
+            this.endGame()
+            // console.log("bum")
+            
+        } else {
+            this.state.clicked.push(id);
+            // console.log(this.state.clicked)
+            this.correctClick()
+            console.log(this.state.score)
+            console.log(this.state.topScore)
+            
+        }
     }
 
+    correctClick = () =>{
+        this.setState({
+            score: this.state.score + 1,
+            message: "Good punch champ!"
+        })
+        this.randomizeImages(this.state.boxers)
+    }
+    
+    endGame = () =>{
+        this.setState({
+            clicked:[],
+            topScore: this.state.score,
+            score: 0,
+            message: `You already clicked that one, try again champ!`
+        })
+        if(this.state.topScore > this.state.score){
+            this.setState({
+                topScore: this.state.topScore,
+                
+            }) 
+        }
+    }
+    
     randomizeImages = (array) => {
         for (let i = 1; i < array.length; i++) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -32,7 +69,7 @@ class Main extends Component {
             <div id='main'>
                 <div id='instructor'>
                     <div id='click-header'>
-                        <h3>Click on an image to earn points, but don't click on any more than once!</h3>
+                        <h3>{this.state.message}</h3>
 
 
                     </div>
@@ -49,8 +86,8 @@ class Main extends Component {
                                 id={boxer.id}
                                 alt={boxer.alt}
                                 src={boxer.src}
-                                onClick ={this.handleClick()}
-                                />
+                                shuffleImages={this.handleClick}
+                            />
                         ))
                     }
                 </div>

@@ -15,7 +15,7 @@
     background-image: url('./images/ring.png');
     background-attachment: fixed;
     background-position: center;
-    min-height: 28rem;
+    min-height: 24rem;
 }
 #click-header{
     text-align: center;

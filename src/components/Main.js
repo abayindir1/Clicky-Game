@@ -39,6 +39,7 @@ class Main extends Component {
     }
     
     endGame = () =>{
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
         this.setState({
             clicked:[],
             topScore: this.state.score,
@@ -48,7 +49,6 @@ class Main extends Component {
         if(this.state.topScore > this.state.score){
             this.setState({
                 topScore: this.state.topScore,
-                
             }) 
         }
     }
@@ -71,11 +71,11 @@ class Main extends Component {
                     <div id='click-header'>
                         <h3>{this.state.message}</h3>
 
+                    <h1>Score:{this.state.score} | Top Score:{this.state.topScore}</h1>
 
                     </div>
                 </div>
                 <div id="score">
-                    <h1>Score:{this.state.score} | Top Score:{this.state.topScore}</h1>
                 </div>
                 <div id='image-content'>
                     {

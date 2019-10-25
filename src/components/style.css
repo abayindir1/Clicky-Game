@@ -59,9 +59,3 @@ img:hover{
     box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 red;
 
 }
-#score{
-    text-align: center;
-    margin-bottom: -3%;
-    padding: 2%;
-    background-color: rgb(206, 206, 206);
-}

@@ -75,8 +75,7 @@ class Main extends Component {
 
                     </div>
                 </div>
-                <div id="score">
-                </div>
+                
                 <div id='image-content'>
                     {
                         this.randomizeImages(this.state.boxers).map(boxer => (

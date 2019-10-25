@@ -6,7 +6,14 @@ import boxers from '../boxers.json'
 
 class Main extends Component {
     state = {
-        boxers: boxers
+        boxers: boxers,
+        score: 0,
+        topScore: 0
+    }
+
+    handleClick = (event) =>{
+        // event.preventDefault();
+        // console.log("clicked")
     }
 
     randomizeImages = (array) => {
@@ -31,7 +38,7 @@ class Main extends Component {
                     </div>
                 </div>
                 <div id="score">
-                    <h1>Score:0 | Top Score:0</h1>
+                    <h1>Score:{this.state.score} | Top Score:{this.state.topScore}</h1>
                 </div>
                 <div id='image-content'>
                     {
@@ -42,7 +49,8 @@ class Main extends Component {
                                 id={boxer.id}
                                 alt={boxer.alt}
                                 src={boxer.src}
-                                clicked={boxer.clicked} />
+                                onClick ={this.handleClick()}
+                                />
                         ))
                     }
                 </div>

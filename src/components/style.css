@@ -53,7 +53,7 @@ img{
 }
 img:hover{
     transform: scale(1.2);
-    transition: all 1s;
+    transition: all 0.7s;
     border: 6px solid rgb(63, 59, 59);
     border-radius: 100px;
     box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 red;
